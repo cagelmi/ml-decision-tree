@@ -8,14 +8,13 @@ A Python Tkinter application designed to help users select appropriate Machine L
 2.  [Screenshots](#screenshots)
 3.  [Features](#features)
 4.  [How It Works](#how-it-works)
-5.  [Motivation](#motivation)
-6.  [Getting Started](#getting-started)
+5.  [Getting Started](#getting-started)
     *   [Prerequisites](#prerequisites)
     *   [Installation](#installation)
     *   [Running the Application](#running-the-application)
-7.  [Dependencies](#dependencies)
-8. [Contributing](#contributing)
-9. [License](#license)
+6.  [Dependencies](#dependencies)
+7. [Contributing](#contributing)
+8. [License](#license)
 
 ## Overview
 
@@ -30,11 +29,12 @@ The development of this Python GUI was done with the assitance of OpenAI's o4-mi
 Here are a couple of screenshots of the application:
 
 1.  **Main GUI (Initial State):** The application interface upon startup, showing the first question.
-    ![GUI Initial State](images/GUI0.png)
 
-2.  **GUI Showing a Recommendation:** An example of the GUI after navigating through a few questions and receiving an algorithm recommendation with tips.
-    ![GUI with Recommendation](images/GUI.png)
-    *(Note: As per the request, both screenshots use the same filename. This second conceptual image would typically show a different state of the application, such as a final result screen.)*
+<img src="./images/GUI0.png" alt="GUI Initial State" width="500" />
+
+3.  **GUI Showing a Recommendation:** An example of the GUI after navigating through a few questions and receiving an algorithm recommendation with tips.
+
+<img src="./images/GUI0.png" alt="GUI with Recommendation" width="500" />
 
 ## Features
 
@@ -58,12 +58,6 @@ The application operates based on a predefined decision tree, which is hardcoded
 4.  A new question is displayed, or if a leaf node is reached, the recommended algorithm(s) and associated tips are shown.
 5.  The "Next" button becomes "Done" when a final recommendation is displayed.
 6.  The user can click "Restart" at any point to clear their history and return to the first question.
-
-## Motivation
-
-The primary goal of this project is to provide an educational and practical tool that simplifies the often complex process of choosing the right machine learning algorithm. It aims to demystify algorithm selection by breaking it down into manageable steps and providing context-specific advice.
-
-This tool was inspired by the article "Choosing the Right Machine Learning Algorithm: A Decision Tree Approach" by Iván Palomares Carrascosa.
 
 ## Getting Started
 
