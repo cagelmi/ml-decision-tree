@@ -18,7 +18,7 @@ A Python Tkinter application designed to help users select appropriate Machine L
 
 ## Overview
 
-The ML Algorithm Selector is an interactive desktop application built with Python and Tkinter. It guides users through a decision-making process to identify suitable machine learning algorithms for their specific tasks: regression, classification, time series forecasting, clustering, dimensionality reduction, new data generation and special classification scenarios. By answering a series of questions, users narrow down the options, ultimately receiving recommendations along with practical implementation tips. This tool is particularly useful for a quick way to explore algorithm choices.
+The ML Algorithm Selector is an interactive desktop application built with Python and Tkinter. It guides users through a decision-making process to identify suitable machine learning algorithms for their specific tasks: *regression, classification, time series forecasting, clustering, dimensionality reduction, new data generation and special classification scenarios*. By answering a series of questions, users narrow down the options, ultimately receiving recommendations along with practical implementation tips. This tool is particularly useful for a quick way to explore algorithm choices.
 
 This tool was inspired by the article [Choosing the Right Machine Learning Algorithm: A Decision Tree Approach](https://www.kdnuggets.com/choosing-the-right-machine-learning-algorithm-a-decision-tree-approach), by Iván Palomares Carrascosa (Kdnuggets May 21, 2025).
 
