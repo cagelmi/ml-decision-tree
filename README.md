@@ -70,10 +70,10 @@ Follow these instructions to get a copy of the project up and running on your lo
 ### Installation
 
 **Clone the repository (or download the script):**
-    ```bash
+```bash
     git clone https://github.com/cagelmi/ml-decision-tree.git
     cd ml-decision-tree
-    ```
+```
 Or simply download the Python script file `ml_selector_gui.py`.
 
 ### Running the Application
