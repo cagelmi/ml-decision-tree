@@ -70,6 +70,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 ### Installation
 
 **Clone the repository (or download the script):**
+
     ```bash
     git clone https://github.com/cagelmi/ml-decision-tree.git
     cd ml-decision-tree
