@@ -1,2 +1,103 @@
-# ml-decision-tree
-Machine learning algorithm selector GUI.
+# ML Algorithm Selector GUI
+
+A Python Tkinter application designed to help users select appropriate Machine Learning algorithms based on a series of guided questions. It also provides practical tips for the recommended algorithms.
+
+## Table of Contents
+
+1.  [Overview](#overview)
+2.  [Screenshots](#screenshots)
+3.  [Features](#features)
+4.  [How It Works](#how-it-works)
+5.  [Motivation](#motivation)
+6.  [Getting Started](#getting-started)
+    *   [Prerequisites](#prerequisites)
+    *   [Installation](#installation)
+    *   [Running the Application](#running-the-application)
+7.  [Dependencies](#dependencies)
+8. [Contributing](#contributing)
+9. [License](#license)
+
+## Overview
+
+The ML Algorithm Selector is an interactive desktop application built with Python and Tkinter. It guides users through a decision-making process to identify suitable machine learning algorithms for their specific tasks: regression, classification, time series forecasting, clustering, dimensionality reduction, new data generation and special classification scenarios. By answering a series of questions, users narrow down the options, ultimately receiving recommendations along with practical implementation tips. This tool is particularly useful for a quick way to explore algorithm choices.
+
+This tool was inspired by the article [Choosing the Right Machine Learning Algorithm: A Decision Tree Approach](https://www.kdnuggets.com/choosing-the-right-machine-learning-algorithm-a-decision-tree-approach), by Iván Palomares Carrascosa (Kdnuggets May 21, 2025).
+
+The development of this Python GUI was done with the assitance of OpenAI's o4-mini-high model.
+
+## Screenshots
+
+Here are a couple of screenshots of the application:
+
+1.  **Main GUI (Initial State):** The application interface upon startup, showing the first question.
+    ![GUI Initial State](images/GUI0.png)
+
+2.  **GUI Showing a Recommendation:** An example of the GUI after navigating through a few questions and receiving an algorithm recommendation with tips.
+    ![GUI with Recommendation](images/GUI.png)
+    *(Note: As per the request, both screenshots use the same filename. This second conceptual image would typically show a different state of the application, such as a final result screen.)*
+
+## Features
+
+*   **Interactive GUI:** User-friendly interface built with Tkinter and ttk for a modern look.
+*   **Decision Tree Navigation:** Guides users through a structured set of questions.
+*   **Algorithm Recommendations:** Suggests ML algorithms based on user choices.
+*   **Practical Tips:** Provides useful tips and considerations for each recommended algorithm.
+*   **History Tracking:** Displays the user's path (questions and answers) through the decision tree.
+*   **Restart Functionality:** Allows users to easily start the selection process over.
+*   **"About" Section:** Provides information about the application and its author.
+*   **Themed UI:** Uses `ttk.Style` for improved widget appearance.
+
+## How It Works
+
+The application operates based on a predefined decision tree, which is hardcoded as a Python dictionary.
+1.  The user is presented with an initial question.
+2.  Based on the type of question, the user selects an answer using either radio buttons (for Yes/No questions) or a combobox (for multiple-choice questions).
+3.  Upon clicking "Next", the application processes the answer:
+    *   The chosen question and answer are added to the "Your Path So Far" history panel.
+    *   The application navigates to the next node in the decision tree corresponding to the user's answer.
+4.  A new question is displayed, or if a leaf node is reached, the recommended algorithm(s) and associated tips are shown.
+5.  The "Next" button becomes "Done" when a final recommendation is displayed.
+6.  The user can click "Restart" at any point to clear their history and return to the first question.
+
+## Motivation
+
+The primary goal of this project is to provide an educational and practical tool that simplifies the often complex process of choosing the right machine learning algorithm. It aims to demystify algorithm selection by breaking it down into manageable steps and providing context-specific advice.
+
+This tool was inspired by the article "Choosing the Right Machine Learning Algorithm: A Decision Tree Approach" by Iván Palomares Carrascosa.
+
+## Getting Started
+
+Follow these instructions to get a copy of the project up and running on your local machine.
+
+### Prerequisites
+
+*   **Python 3.x:** The application is written in Python 3. Make sure you have Python 3 installed. You can download it from [python.org](https://www.python.org/downloads/).
+*   **Tkinter:** Tkinter is part of the Python standard library and should be available with most Python installations. If you are on a Linux system and it's missing, you might need to install it separately (e.g., `sudo apt-get install python3-tk` on Debian/Ubuntu).
+
+### Installation
+
+1.  **Clone the repository (or download the script):**
+    ```bash
+    git clone https://github.com/your-username/your-repository-name.git
+    cd your-repository-name
+    ```
+    (Replace `your-username/your-repository-name` with the actual repository URL if applicable, or simply download the Python script file, e.g., `ml_selector_gui.py`.)
+
+2.  **Ensure the `images` folder:**
+    If you are using the screenshots, make sure the `images` folder with `GUI.png` is in the same directory as the Python script.
+
+### Running the Application
+
+Navigate to the directory where you saved the Python script (e.g., `ml_selector_gui.py`) and run it from your terminal:
+
+```bash
+python ml_selector_gui.py
+
+## Contributing
+
+Contributions, bug reports, and feature requests are welcome! Please feel free to open an issue or submit a pull request.
+When contributing to this repository, please first discuss the change you wish to make via issue or email with the maintainers before making a change.
+
+## License
+
+This project is licensed under the MIT License.
