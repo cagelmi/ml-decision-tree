@@ -32,7 +32,7 @@ Here are a couple of screenshots of the application:
 
 <img src="./images/GUI0.png" alt="GUI Initial State" width="500" />
 
-3.  **GUI Showing a Recommendation:** An example of the GUI after navigating through a few questions and receiving an algorithm recommendation with tips.
+2.  **GUI Showing a Recommendation:** An example of the GUI after navigating through a few questions and receiving an algorithm recommendation with tips.
 
 <img src="./images/GUI.png" alt="GUI with Recommendation" width="500" />
 
@@ -74,6 +74,7 @@ Follow these instructions to get a copy of the project up and running on your lo
     git clone https://github.com/cagelmi/ml-decision-tree.git
     cd ml-decision-tree
     ```
+
 Or simply download the Python script file `ml_selector_gui.py`.
 
 ### Running the Application
