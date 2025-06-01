@@ -34,7 +34,7 @@ Here are a couple of screenshots of the application:
 
 3.  **GUI Showing a Recommendation:** An example of the GUI after navigating through a few questions and receiving an algorithm recommendation with tips.
 
-<img src="./images/GUI0.png" alt="GUI with Recommendation" width="500" />
+<img src="./images/GUI.png" alt="GUI with Recommendation" width="500" />
 
 ## Features
 
@@ -45,7 +45,6 @@ Here are a couple of screenshots of the application:
 *   **History Tracking:** Displays the user's path (questions and answers) through the decision tree.
 *   **Restart Functionality:** Allows users to easily start the selection process over.
 *   **"About" Section:** Provides information about the application and its author.
-*   **Themed UI:** Uses `ttk.Style` for improved widget appearance.
 
 ## How It Works
 
