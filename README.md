@@ -71,10 +71,10 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 1.  **Clone the repository (or download the script):**
     ```bash
-    git clone https://github.com/your-username/your-repository-name.git
-    cd your-repository-name
+    git clone https://github.com/cagelmi/ml-decision-tree.git
+    cd ml-decision-tree
     ```
-    (Replace `your-username/your-repository-name` with the actual repository URL if applicable, or simply download the Python script file, e.g., `ml_selector_gui.py`.)
+    Or simply download the Python script file `ml_selector_gui.py`.
 
 2.  **Ensure the `images` folder:**
     If you are using the screenshots, make sure the `images` folder with `GUI.png` is in the same directory as the Python script.
