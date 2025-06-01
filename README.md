@@ -85,6 +85,7 @@ Navigate to the directory where you saved the Python script (e.g., `ml_selector_
 
 ```bash
 python ml_selector_gui.py
+```
 
 ## Contributing
 
