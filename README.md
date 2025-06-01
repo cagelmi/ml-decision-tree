@@ -22,7 +22,8 @@ The ML Algorithm Selector is an interactive desktop application built with Pytho
 
 This tool was inspired by the article [Choosing the Right Machine Learning Algorithm: A Decision Tree Approach](https://www.kdnuggets.com/choosing-the-right-machine-learning-algorithm-a-decision-tree-approach), by Iván Palomares Carrascosa (Kdnuggets May 21, 2025).
 
-The development of this Python GUI was done with the assitance of OpenAI's o4-mini-high model.
+This GUI tool was developed with the assistance of OpenAI's o4-mini-high model.
+
 
 ## Screenshots
 
